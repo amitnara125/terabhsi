@@ -15,11 +15,11 @@
 from . import *
 
 try:
-    APP_ID = config("APP_ID", cast=int)
-    API_HASH = config("API_HASH")
-    BOT_TOKEN = config("BOT_TOKEN")
-    OWNER = config("OWNER_ID", default=1322549723, cast=int)
-    LOG = config("LOG_CHANNEL", cast=int)
+    APP_ID = config("APP_ID", cast=7774029)
+    API_HASH = config("531dbf42d387514dc43da07db9f2dc8f")
+    BOT_TOKEN = config("5316639488:AAEiy0MI7CnlIgbXK8E12XSfGNUGDorrXNo")
+    OWNER = config("OWNER_ID", default=1322549723, cast=1654867043)
+    LOG = config("LOG_CHANNEL", cast=VCAMCHANEL)
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
